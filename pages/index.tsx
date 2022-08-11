@@ -13,14 +13,14 @@ const Home: NextPage = () => {
   return (
     <div className="flex flex-column justify-center h-screen min-w-full">
 
-      <div className="bg-sky-300 grid justify-center gap-y-28 px-12 w-2/5">
+      <div className="bg-sky-300 grid justify-center gap-y-24 px-12 w-2/5">
         <a href="#" className="flex mt-5 pt-6 max-w-fit">
           <FaCat className="flex justify-center lg:text-2xl xl:text-4xl" />
         </a>
         <div className="grid">
           <div>
-            <h1 className="lg:text-3xl xl:text-8xl xl:leading-snug font-extrabold">Cats.</h1>
-            <h1 className="lg:text-3xl xl:text-5xl xl:leading-snug font-extrabold">Where ultimate cuteness awaits.</h1>
+            <h1 className="lg:text-4xl xl:text-8xl xl:leading-snug font-extrabold">Cats.</h1>
+            <h1 className="lg:text-2xl xl:text-5xl xl:leading-snug font-extrabold">Where ultimate cuteness awaits.</h1>
           </div>
           <div className="px-2">
             <p className="text-lg">Don't have an account?</p>
@@ -35,8 +35,8 @@ const Home: NextPage = () => {
       <div className="grid gap-y-4 justify-center content-center text-center bg-red-200 w-3/5">
         <h1 className="text-4xl md:text-5xl font-bold mt-52">Login to your account</h1>
         <h3 className="text-md md:text-xl">Continue where you left off</h3>
-        <input type="text" placeholder="Username" className="flex border-2 border-black rounded-lg px-3 py-2" />
-        <input type="text" placeholder="Password" className="flex border-2 border-black rounded-lg px-3 py-2" />
+        <input type="text" placeholder="Username" className="flex border-1 border-black rounded-lg px-3 py-2" />
+        <input type="text" placeholder="Password" className="flex border-1 border-black rounded-lg px-3 py-2" />
         <button className="bg-black text-white py-2 rounded-lg">Login with Email</button>
         <div className="flex justify-center items-center">
           <span className="w-full border border-black"></span>
