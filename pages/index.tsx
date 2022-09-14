@@ -49,11 +49,11 @@ const Home: NextPage = () => {
         </button>
         <h3 className="mt-36">Built by <a href="#" className="underline">Herald Adowei</a></h3>
         <div className="flex flex-row gap-x-8 justify-center pt-2">
-          <a href="https://www.linkedin.com/in/heraldadowei/"><FaLinkedin className="lg:text-xl xl:text-xl" /></a>
-          <a href="https://codepen.io/He_sRad/"><FaCodepen className="lg:text-xl xl:text-xl" /></a>
-          <a href="https://github.com/RadZ3000"><FaGithub className="lg:text-xl xl:text-xl" /></a>
-          <a href="https://www.instagram.com/herald_a/"><FaInstagram className="lg:text-xl xl:text-xl" /></a>
-          <a href="https://twitter.com/The_RadZee"><FaTwitter className="lg:text-xl xl:text-xl" /></a>
+          <a href="https://www.linkedin.com/in/heraldadowei/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="lg:text-xl xl:text-xl" /></a>
+          <a href="https://codepen.io/He_sRad/" target="_blank" rel="noopener noreferrer"><FaCodepen className="lg:text-xl xl:text-xl" /></a>
+          <a href="https://github.com/RadZ3000" target="_blank" rel="noopener noreferrer"><FaGithub className="lg:text-xl xl:text-xl" /></a>
+          <a href="https://www.instagram.com/herald_a/" target="_blank" rel="noopener noreferrer"><FaInstagram className="lg:text-xl xl:text-xl" /></a>
+          <a href="https://twitter.com/The_RadZee" target="_blank" rel="noopener noreferrer"><FaTwitter className="lg:text-xl xl:text-xl" /></a>
         </div>
       </div>
 
