@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import {
-  FaCat,
+  FaSquare,
   FaGoogle,
   FaLinkedin,
   FaCodepen,
@@ -15,12 +15,12 @@ const Home: NextPage = () => {
 
       <div className="bg-sky-300 grid justify-center gap-y-24 px-12 w-2/5">
         <a href="#" className="flex mt-5 pt-6 max-w-fit">
-          <FaCat className="flex justify-center lg:text-2xl xl:text-4xl" />
+          <FaSquare className="flex justify-center lg:text-2xl xl:text-4xl" />
         </a>
         <div className="grid">
           <div>
-            <h1 className="lg:text-4xl xl:text-8xl xl:leading-snug font-extrabold">Cats.</h1>
-            <h1 className="lg:text-2xl xl:text-5xl xl:leading-snug font-extrabold">Where ultimate cuteness awaits.</h1>
+            <h1 className="lg:text-4xl xl:text-8xl xl:leading-snug font-extrabold">Square.</h1>
+            <h1 className="lg:text-2xl xl:text-5xl xl:leading-snug font-extrabold">Shaping our future.</h1>
           </div>
           <div className="px-2">
             <p className="text-lg">Don't have an account?</p>
@@ -28,11 +28,11 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className="px-2">
-          <p>Cats 2022 ©</p>
+          <p>Square 2022 ©</p>
         </div>
       </div>
 
-      <div className="grid gap-y-4 justify-center content-center text-center bg-red-200 w-3/5">
+      <div className="grid gap-y-4 justify-center content-center text-center bg-gray-200 w-3/5">
         <h1 className="text-4xl md:text-5xl font-bold mt-52">Login to your account</h1>
         <h3 className="text-md md:text-xl">Continue where you left off</h3>
         <input type="text" placeholder="Username" className="flex border-1 border-black rounded-lg px-3 py-2" />
@@ -49,11 +49,11 @@ const Home: NextPage = () => {
         </button>
         <h3 className="mt-36">Built by <a href="#" className="underline">Herald Adowei</a></h3>
         <div className="flex flex-row gap-x-8 justify-center pt-2">
-          <a href="#"><FaLinkedin className="lg:text-xl xl:text-xl" /></a>
-          <a href="#"><FaCodepen className="lg:text-xl xl:text-xl" /></a>
-          <a href="#"><FaGithub className="lg:text-xl xl:text-xl" /></a>
-          <a href="#"><FaInstagram className="lg:text-xl xl:text-xl" /></a>
-          <a href="#"><FaTwitter className="lg:text-xl xl:text-xl" /></a>
+          <a href="https://www.linkedin.com/in/heraldadowei/"><FaLinkedin className="lg:text-xl xl:text-xl" /></a>
+          <a href="https://codepen.io/He_sRad/"><FaCodepen className="lg:text-xl xl:text-xl" /></a>
+          <a href="https://github.com/RadZ3000"><FaGithub className="lg:text-xl xl:text-xl" /></a>
+          <a href="https://www.instagram.com/herald_a/"><FaInstagram className="lg:text-xl xl:text-xl" /></a>
+          <a href="https://twitter.com/The_RadZee"><FaTwitter className="lg:text-xl xl:text-xl" /></a>
         </div>
       </div>
 
