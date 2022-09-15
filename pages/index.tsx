@@ -11,11 +11,12 @@ import {
 
 const Home: NextPage = () => {
   return (
-    <div className="flex flex-col sm:flex-row justify-center h-screen min-w-full">
+    <div className="flex flex-col sm:flex-row justify-center h-screen md:h-max lg:h-screen min-w-full bg-slate-900">
 
       <div className="hidden bg-sky-300 lg:grid justify-center gap-y-24 px-12 lg:w-2/5">
         <a href="#" className="flex mt-5 pt-6 max-w-fit">
           <FaSquare className="flex justify-center lg:text-2xl xl:text-4xl" />
+          {/* <strong>Square</strong> */}
         </a>
         <div className="grid">
           <div>
